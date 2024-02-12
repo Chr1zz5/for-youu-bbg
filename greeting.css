@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background-image: url(https://lh3.googleusercontent.com/pw/ABLVV84wdZTgHxICGzIZpY42mtCW6QTPPdGmif2gMeIcIoVhDbkviMSrxtJ69XdnGxJOIQcjhbfnBGkHQTrOJ5leFGA2BXsNq-VLwlhg5AARoVhJKtK4Ar5G2YmEzTFrG1p1ECU140MXx2Gger5NwQfJarm6KDMfbgqaIR2pkRbcJkquwvrrRZzak1o-oKgbHO6h7cAVKOPhh_kZN9xWBIddHjOJ8X7Pcigj3ZwYbM2vIcCQYEfdONt-Er5qg-8Giqx4ScZc368SXlPUVdhLHxtrSUmEg58ELTiEIEGelvjah4n2b4u8nyOhtU9q9MMh7qNZ4FZea00nT1V1TIGAYw_oS-e880SxNGNXHvPPTIvzyZoWOvCa4Po761gb1dVKz6sjspzHja2HIj7AtpKvi1uUMLfW7VKMX1NdglcL4kltJ-IsbBNflPGe6RxPXZOj8A4nPHOD7-RMMq6atxMi0MoYam958PWQ2CXD9Opk3_CI_v61OXNKD2ZGU6DR1u-4uFR4qeM4gs5vWSq1Xr9vloLxXT73T_fRRbCYHa1oNeWR987CK9fv8EL5F3uWUyhLstOrhgQB2S9ab5KmrxPLMjoSu4gdF96_5xm8BsRxC_i40hDsBlwo1PmhtGnZI2Bxc6-5RMaI4YeyyzjhyurxbrFEuO3Ux6gfduPMJ8ewHxMLW_OgxOGKg_hTdnaMGv0ttDar_JN6wRyZHleOIOglCvy7Ssb4kXjyxf0kS2sXrW37kgvgxSMn5NslUQ9rgfPr6UzFGVVYciZRh5XKGBxXpz9FRkfb0QbuXqBVS7PvbcLOlux2Hg5r--P7Wm1gB85baV-Qup4xBM-HwHypf4_2HgSfS0Nd_J9IceRBBNbKnneajzQINS21lQsDmQzznooZFVZzBeG7p9kjZ__J70vlsXLDrX6WEcz4ehLB99-XiZnDjhfjCM_bxKUQlt7ga5cI6xU=w659-h879-s-no-gm?authuser=0);
+    background-color: rgb(235, 152, 208);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(233, 48, 48);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 1s ease;
+}
+
